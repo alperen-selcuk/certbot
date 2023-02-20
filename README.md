@@ -26,3 +26,9 @@ certifikayı aldıktan sonra pfx olarak kullanmak için.
 ```
 openssl pkcs12 -export -in full.pem -inkey privateky.key -out output.pfx
 ```
+
+certificate check
+
+
+````
+openssl x509 -in server.crt -text -noout
