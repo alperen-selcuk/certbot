@@ -31,4 +31,4 @@ certificate check
 
 
 ````
-openssl x509 -in server.crt -text -noout
+openssl x509 -in <certificate> -text -noout
