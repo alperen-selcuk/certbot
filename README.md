@@ -30,8 +30,9 @@ openssl pkcs12 -export -in full.pem -inkey privateky.key -out output.pfx
 certificate check
 
 
-````
+```
 openssl x509 -in <certificate> -text -noout
+```
 
 
 örnek websitesinde port 8080 olarak değiştireceğiz
@@ -41,4 +42,4 @@ apt-get install apache2
 
 vi /etc/apache2/port.conf 
 ```
-```
+
