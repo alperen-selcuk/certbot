@@ -32,3 +32,11 @@ certificate check
 
 ````
 openssl x509 -in <certificate> -text -noout
+
+
+örnek websitesinde port 8080 olarak değiştireceğiz
+
+```
+apt-get install apache2
+
+vi /etc/apache2/port.conf 
