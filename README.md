@@ -24,7 +24,7 @@ bundan sonra size her domain için bir TXT record verecek bunu DNS lerinizi yön
 certifikayı aldıktan sonra pfx olarak kullanmak için.
 
 ```
-openssl pkcs12 -export -in full.pem -inkey privateky.key -out output.pfx
+openssl pkcs12 -export -in fullchain.pem -inkey privkey.pem -out output.pfx
 ```
 
 certificate check
